@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="392dp"
+        android:layout_height="735dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="355dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <EditText
+            android:id="@+id/tvusuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="75dp"
+
+            android:layout_marginTop="280dp"
+            android:layout_marginEnd="75dp"
+            android:ems="10"
+            android:hint="Ingrese su email"
+            android:inputType="textEmailAddress"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/tvcontraseña"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="75dp"
+
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="75dp"
+
+            android:layout_marginRight="10dp"
+            android:ems="10"
+            android:hint="Ingrese su contraseña"
+            android:inputType="numberPassword"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+
+            android:layout_width="137dp"
+            android:layout_height="130dp"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="125dp"
+            app:srcCompat="@drawable/usuario" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="135dp"
+            android:layout_height="50dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="450dp"
+            android:layout_marginEnd="133dp"
+            android:layout_marginBottom="100dp"
+            android:backgroundTint="#A30D0D"
+            android:text="Iniciar" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
